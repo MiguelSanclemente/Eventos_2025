@@ -2,20 +2,22 @@ package inheritance;
 
 public abstract class Bird{
 
-   private String name;
+   private static String name;
    private String PlumageColor;
+   
 
     public Bird(String name, String plumageColor) {
         this.name = name;
-        PlumageColor = plumageColor;
+        this.PlumageColor = plumageColor;
+
     }
 
-    public String getName() {
+    public static String getName() {
         return name;
     }
 
     public void setName(String name) {
-        this.name = name;
+        Bird.name = name;
     }
 
     public String getPlumageColor() {

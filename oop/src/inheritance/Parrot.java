@@ -1,6 +1,6 @@
 package inheritance;
 
-public class Parrot extends Bird{
+public class Parrot extends Bird implements pet{
 
     String lenguage;
     String race;
@@ -31,5 +31,8 @@ public class Parrot extends Bird{
     public void sing(){
         System.out.println("quiere cacao??");
     }
+
+
+    
 }
  

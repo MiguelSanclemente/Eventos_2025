@@ -1,0 +1,6 @@
+package inheritance;
+
+interface pet {
+
+    
+}
