@@ -1,6 +1,7 @@
 public class App {
+
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+      /*  System.out.println("Hello, World!");
         String university = "Valle";
         boolean ganareOE = true;
         Human human1 = new Human() ;
@@ -17,7 +18,12 @@ public class App {
         human1.presentation();
         human2.presentation();
         String stractgeronimo = human1.stract(89797987);
-        System.out.println(stractgeronimo); 
+        System.out.println(stractgeronimo); */ 
         
+
+        Circle Circle = new Circle(5);
+        System.out.println("The area is " + Circle.getArea());
+        Cylindred cylindred = new Cylindred(6.9f, 9);
+        System.out.println(cylindred.getArea());
     }
 }
